@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      description="We are a technology company first, but with a major focus on consumer well-being through a healthy pizza. Our aim is to provide delicious pizza at an affordable price. more than 150,000 people a year enjoy plenty of pizza."
+    />
+    <meta name="theme-color" content="#444" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Furkan Baş" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="img/icons/favicon - 64.png" />
+    <link rel="apple-touch-icon" href="img/icons/favicon - 180.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar-nav container">
+        <!-- MENU SECTİON -->
+        <button class="menu-btns">
+          <i class="fa-solid fa-bars menu-icon menu-bar"></i>
+          <i class="fa-solid fa-xmark menu-icon menu-close"></i>
+        </button>
+        <div class="nav-content">
+          <ul class="nav-list">
+            <li class="nav-links">
+              <a href="#cart" class="nav-link">Plenty Pizzas</a>
+            </li>
+            <li class="nav-links">
+              <a href="#pricing" class="nav-link">Monthly Account</a>
+            </li>
+            <li class="nav-links">
+              <a href="#questions" class="nav-link">FAQ</a>
+            </li>
+            <li class="nav-links">
+              <a href="#footer" class="nav-link">Join Us!</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <ul class="nav-social-list">
+            <li class="nav-social-links">
+              <a
+                href="https://twitter.com/thesky04"
+                target="_blank"
+                class="nav-social-link"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li class="nav-social-links">
+              <a
+                href="https://www.facebook.com/fufufurkannn"
+                class="nav-social-link"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li class="nav-social-links">
+              <a
+                href="https://www.instagram.com/thesky04/?hl=en"
+                target="_blank"
+                class="nav-social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h2 class="hero-title">
+            A healthy and cheap pizza is out of your door. Don't make your pizza
+            cold. Hurry up!
+          </h2>
+          <p class="hero-text">
+            Your money will be in your pocket thanks to price of plenty Pizzas.
+            Also you will taste Perfect Pizza with plenty ingredients. Don't
+            take many calories but taste !
+          </p>
+          <a href="#cart" class="btn hero-btn">Order now!</a>
+        </div>
+      </section>
+      <section class="section-featured container">
+        <p class="section-title">As featured in</p>
+        <div class="logos">
+          <img
+            class="logo"
+            src="img/logos/techcrunch-logo.png"
+            alt="techcrunch-logo"
+          />
+          <img
+            class="logo"
+            src="img/logos/the-new-york-times-logo.png"
+            alt="the-new-york-times-logo"
+          />
+          <img class="logo" src="img/logos/thy-logo.png" alt="thy-logo" />
+          <img class="logo" src="img/logos/togg-logo.png" alt="togg-logo" />
+          <img class="logo" src="img/logos/udemy-logo.png" alt="udemy-logo" />
+        </div>
+      </section>
+
+      <section class="section-cart" id="cart">
+        <div class="container">
+          <h2 class="card-heading">The most popular 3 pizzas</h2>
+        </div>
+        <div class="card-container container">
+          <figure class="card">
+            <img
+              class="card-img"
+              src="img/cart-pizzass/plenty-sausage.jpg"
+              alt="Plenty Sausage pizza"
+            />
+            <div class="card-content">
+              <div class="card-tags">
+                <span class="tag paleo">Paleo</span>
+              </div>
+              <p class="card-name">Plenty Sausage</p>
+              <ul class="card-list">
+                <li class="card-li">
+                  <i class="fa-solid fa-fire card-icon"></i
+                  ><span><strong>730 </strong> calories</span>
+                </li>
+                <li class="card-li">
+                  <i class="fa-solid fa-utensils card-icon"></i
+                  ><span><strong>81</strong> Nutriscore </span>
+                </li>
+                <li class="card-li">
+                  <i class="fa-solid fa-star card-icon"></i
+                  ><span><strong>4.8</strong> rating(564)</span>
+                </li>
+              </ul>
+            </div>
+          </figure>
+
+          <figure class="card">
+            <img
+              class="card-img"
+              src="img/cart-pizzass/plenty-meat.jpg"
+              alt="Plenty Meat pizza"
+            />
+            <div class="card-content">
+              <div class="card-tags">
+                <span class="tag vegan">Vegan</span>
+              </div>
+              <p class="card-name">Plenty Meat</p>
+              <ul class="card-list">
+                <li class="card-li">
+                  <i class="fa-solid fa-fire card-icon"></i
+                  ><span><strong>680 </strong> calories</span>
+                </li>
+                <li class="card-li">
+                  <i class="fa-solid fa-utensils card-icon"></i
+                  ><span><strong>78</strong> Nutriscore </span>
+                </li>
+                <li class="card-li">
+                  <i class="fa-solid fa-star card-icon"></i
+                  ><span><strong>4.6</strong> rating(931)</span>
+                </li>
+              </ul>
+            </div>
+          </figure>
+
+          <figure class="card card-3">
+            <img
+              class="card-img card-img-3"
+              src="img/cart-pizzass/plenty-Cheese.jpg"
+              alt="Plenty Cheese pizza"
+            />
+            <div class="card-content">
+              <div class="card-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+                <span class="tag paleo">Paleo</span>
+              </div>
+              <p class="card-name">Plenty Cheese</p>
+              <ul class="card-list">
+                <li class="card-li">
+                  <i class="fa-solid fa-fire card-icon"></i
+                  ><span><strong>650 </strong> calories</span>
+                </li>
+                <li class="card-li">
+                  <i class="fa-solid fa-utensils card-icon"></i
+                  ><span><strong>74</strong> Nutriscore </span>
+                </li>
+                <li class="card-li">
+                  <i class="fa-solid fa-star card-icon"></i
+                  ><span><strong>4.9</strong> rating(531)</span>
+                </li>
+              </ul>
+            </div>
+          </figure>
+        </div>
+        <div class="text-center">
+          <a href="#" class="btn-text all-pizzas">See all Pizzas &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-statics">
+        <div class="match-container">
+          <img
+            class="match-photo"
+            src="img/match-photo.jpg"
+            alt="Match Pizza"
+          />
+          <div class="match-content">
+            <h2 class="match-title">Looking to meet your match?</h2>
+            <p class="match-text">
+              Take our food quiz to find out which pizzas are proper for you.
+            </p>
+            <a href="#" class="btn-match">Match Me!</a>
+          </div>
+        </div>
+
+        <div class="statics-container container">
+          <div class="statics">
+            <h5 class="statics-title">Consumer Rate</h5>
+            <p class="statics-ratio">81%</p>
+            <p class="statics-description">
+              The rate of consumers liking Plenty pizzas is 81%!
+            </p>
+          </div>
+          <div class="statics">
+            <h5 class="statics-title">Consumer Advice</h5>
+            <p class="statics-ratio">85%</p>
+            <p class="statics-description">
+              85% of our customers advice their friends to Plenty Pizza!
+            </p>
+          </div>
+          <div class="statics">
+            <h5 class="statics-title">Return Acceptance Rate</h5>
+            <p class="statics-ratio">78%</p>
+            <p class="statics-description">
+              Plenty Pizza accepts 78% of pizza return requests!
+            </p>
+          </div>
+          <div class="statics">
+            <h5 class="statics-title">Match Satisfaction Rate</h5>
+            <p class="statics-ratio">87%</p>
+            <p class="statics-description">
+              Rate satisfaction of the customers who fills Plenty Pizza's form
+              is 87%!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-testimonials">
+        <div class="testimonials-heading container">
+          <h4 class="testimonials-subheading">Testimonials</h4>
+          <h2 class="testimonials-mainheading">
+            Once you try it, you can't go back
+          </h2>
+        </div>
+        <div class="testimonials-content-box container">
+          <figure class="testimonials">
+            <img
+              class="testimonial-img"
+              src="img/customers/sezen.jpg"
+              alt="Sezen Bulduklar's Photo"
+            />
+            <div class="testimonials-content">
+              <p class="testimonials-text">
+                Plenty Pizza has awesome offer for its customers. These pizzas
+                are exactly for those who wants to eat well and doesn't want to
+                pay so much!
+              </p>
+              <p class="testimonials-author">&#8212; Sezen Bulduklar</p>
+            </div>
+          </figure>
+
+          <figure class="testimonials">
+            <img
+              class="testimonial-img"
+              src="img/customers/esra.jpg"
+              alt="Esra Fidel Kara's photo"
+            />
+            <div class="testimonials-content">
+              <p class="testimonials-text">
+                I eat a lot of pizza all around of the world but Plenty pizza is
+                the best. I couldn't find this taste in another pizzas.
+              </p>
+              <p class="testimonials-author">&#8212; Esra Fidel Kara</p>
+            </div>
+          </figure>
+
+          <figure class="testimonials">
+            <img
+              class="testimonial-img"
+              src="img/customers/mami.jpg"
+              alt="Muhammet Alkan's Photo"
+            />
+            <div class="testimonials-content">
+              <p class="testimonials-text">
+                I choose the Plenty pizza because it has so many types of pizza
+                you can eat. Also they don't have so much calories !
+              </p>
+              <p class="testimonials-author">&#8212; Muhammet Alkan</p>
+            </div>
+          </figure>
+          <figure class="testimonials">
+            <img
+              class="testimonial-img"
+              src="img/customers/enes.jpg"
+              alt="Enes Duman's Photo"
+            />
+            <div class="testimonials-content">
+              <p class="testimonials-text">
+                I have been eating the Plenty pizza since the day I learned it
+                from my friend and I recommend it to my friends.
+              </p>
+              <p class="testimonials-author">&#8212; Enes Duman</p>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing" id="pricing">
+        <div class="testimonials-heading container">
+          <h4 class="subheading--dark">Prices</h4>
+          <h2 class="testimonials-mainheading">Choose the best for you!</h2>
+        </div>
+        <div class="pricing-container container">
+          <figure class="pricing-card">
+            <div class="card__side pricing-card--front pricing-card--front-1">
+              <h3 class="pricing-name pricing-name">Normal</h3>
+
+              <ul class="pricing-list">
+                <li class="pricing-list-item">
+                  <i class="fa-solid fa-check pricing-icon"></i
+                  ><span>1 meal per day</span>
+                </li>
+                <li class="pricing-list-item">
+                  <i class="fa-solid fa-check pricing-icon"></i
+                  ><span>Orders at 11am and 9pm</span>
+                </li>
+                <li class="pricing-list-item">
+                  <i class="fa-solid fa-check pricing-icon"></i
+                  ><span>1 Delivery is free</span>
+                </li>
+              </ul>
+            </div>
+            <div class="card__side pricing-card--back pricing-card--back-1">
+              <div class="text-center">
+                <p class="pricing-only">Only</p>
+                <p class="pricing-price">
+                  <span class="pricing-price-span">$</span>399
+                </p>
+                <a href="#" class="order order-1">Order now!</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="pricing-card">
+            <div
+              class="card__side card__side-vip pricing-card--front pricing-card--front-2"
+            >
+              <h3 class="pricing-name pricing-name">Premium</h3>
+
+              <ul class="pricing-list">
+                <li class="pricing-list-item">
+                  <i class="fa-solid fa-check pricing-icon"></i
+                  ><span>2 meals per day</span>
+                </li>
+                <li class="pricing-list-item">
+                  <i class="fa-solid fa-check pricing-icon"></i
+                  ><span>Orders 24/7</span>
+                </li>
+                <li class="pricing-list-item">
+                  <i class="fa-solid fa-check pricing-icon"></i
+                  ><span>1 free drink</span>
+                </li>
+                <li class="pricing-list-item">
+                  <i class="fa-solid fa-check pricing-icon"></i
+                  ><span>Delivery is free</span>
+                </li>
+              </ul>
+            </div>
+            <div class="card__side pricing-card--back pricing-card--back-2">
+              <div class="text-center">
+                <p class="pricing-only">Only</p>
+                <p class="pricing-price">
+                  <span class="pricing-price-span">$</span>649
+                </p>
+                <a href="#" class="order order-2">Order now!</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="pricing-card">
+            <div class="card__side pricing-card--front pricing-card--front-3">
+              <h3 class="pricing-name pricing-name-starter">Elite</h3>
+
+              <ul class="pricing-list">
+                <li class="pricing-list-item">
+                  <i class="fa-solid fa-check pricing-icon"></i
+                  ><span>1 meal per day</span>
+                </li>
+                <li class="pricing-list-item">
+                  <i class="fa-solid fa-check pricing-icon"></i
+                  ><span>Orders 24/7</span>
+                </li>
+                <li class="pricing-list-item">
+                  <i class="fa-solid fa-check pricing-icon"></i
+                  ><span>1 free drink</span>
+                </li>
+                <li class="pricing-list-item">
+                  <i class="fa-solid fa-check pricing-icon"></i
+                  ><span>Delivery is free</span>
+                </li>
+              </ul>
+            </div>
+            <div class="card__side pricing-card--back pricing-card--back-3">
+              <div class="text-center">
+                <p class="pricing-only">Only</p>
+                <p class="pricing-price">
+                  <span class="pricing-price-span">$</span>500
+                </p>
+                <a href="#" class="order order-3">Order now!</a>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-questions" id="questions">
+        <div class="questions-container container">
+          <div class="questions-content-box">
+            <h2 class="questions-title">We care about you!</h2>
+            <p class="questions-text">
+              We prepared lots of questions generally our customers asked to us
+              and we gave answers. Nevertheless, you have a question which is
+              not one of them these questions, you can easily contact with us
+              via contact section. Because we care about you!
+            </p>
+          </div>
+          <div class="questions-box">
+            <figure class="question-box">
+              <h2 class="question">
+                <span>Which pizza has the smallest calorie ?</span
+                ><i class="fa-solid fa-plus"></i>
+              </h2>
+            </figure>
+            <figure class="question-box">
+              <h2 class="question">
+                <span>How much money should I pay for the pizza ?</span
+                ><i class="fa-solid fa-plus"></i>
+              </h2>
+            </figure>
+            <figure class="question-box">
+              <h2 class="question">
+                <span>Why should I choose the Plenty Pizza ?</span
+                ><i class="fa-solid fa-plus"></i>
+              </h2>
+            </figure>
+            <figure class="question-box">
+              <h2 class="question">
+                <span>How do I create Plenty Pizza account ?</span
+                ><i class="fa-solid fa-plus"></i>
+              </h2>
+            </figure>
+            <figure class="question-box">
+              <h2 class="question">
+                <span>Can I pay for the pizza from my bank account?</span
+                ><i class="fa-solid fa-plus"></i>
+              </h2>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features">
+        <div class="features-container container">
+          <figure class="features">
+            <i class="fa-solid fa-truck features-icon"></i>
+            <h2 class="features-title">Fast Service</h2>
+            <p class="features-text">
+              Our chefs and couriers are so fast that your orders are in the
+              address the moment you order.
+            </p>
+          </figure>
+          <figure class="features">
+            <i class="fa-solid fa-leaf features-icon"></i>
+            <h2 class="features-title">Local and organic</h2>
+            <p class="features-text">
+              Our cooks only use local, fresh, and organic products to prepare
+              your meals.
+            </p>
+          </figure>
+          <figure class="features">
+            <i class="fa-solid fa-trash features-icon"></i>
+            <h2 class="features-title">No waste</h2>
+            <p class="features-text">
+              All our partners only use reusable containers to package all your
+              meals.
+            </p>
+          </figure>
+          <figure class="features">
+            <i class="fa-solid fa-heart features-icon"></i>
+            <h2 class="features-title">Healthy and Cheap</h2>
+            <p class="features-text">
+              Going on vacation? Just pause your subscription, and we refund
+              unused days.
+            </p>
+          </figure>
+        </div>
+      </section>
+    </main>
+    <footer class="section-footer" id="footer">
+      <div class="section-container container">
+        <div class="footer-content-box">
+          <div class="footer-left">
+            <div class="footer-links">
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Create account</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Sign in</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">About Plenty Pizza</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">For Business</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-links">
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">iOS app</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Android app</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Privacy & terms</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">FAQs</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-links">
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Cooking partners</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Careers</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Recipe directory</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Help center</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-right">
+            <div class="footer-right-container">
+              <h4 class="footer-title">Want to join our crew ?</h4>
+              <p class="footer-text">
+                If you like pizza and you need a job, immediately text your
+                email adress and fill the form, who knows maybe one day you will
+                join our crew and be our colleagues!
+              </p>
+              <form action="#">
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="footer-input"
+                    placeholder="Your email"
+                    required
+                  />
+                  <button class="submit">Join Us!</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,278 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .navbar-nav {
+    padding: 2rem 4rem;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-title {
+    font-size: 4.4rem;
+    max-width: 100%;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .statics-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .card-3 {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 40%;
+  }
+
+  .features-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pricing-card--front {
+    padding: 5rem;
+  }
+
+  .logo {
+    height: 2.5rem;
+  }
+
+  .testimonials-text {
+    font-size: 1.8rem;
+  }
+
+  .testimonials-author {
+    font-size: 1.6rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .footer-content-box {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-text {
+    font-size: 1.4rem;
+  }
+
+  .testimonials-author {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-img {
+    height: 80%;
+  }
+
+  .hero-text {
+    font-size: 1.6rem;
+  }
+
+  .pricing-card--front {
+    padding: 2rem;
+  }
+
+  .questions-title {
+    font-size: 3.6rem;
+  }
+
+  .questions-text {
+    font-size: 1.4rem;
+  }
+
+  .question-box {
+    padding: 2rem;
+  }
+
+  .questions-container {
+    flex-direction: column;
+  }
+
+  .question {
+    font-size: 1.4rem;
+  }
+  .card-3 {
+    width: 80%;
+  }
+
+  /*********** Menu Section **********/
+
+  .menu-btns {
+    border: none;
+    background: transparent;
+    color: #fff;
+    display: block;
+  }
+
+  .menu-btns:hover {
+    cursor: pointer;
+  }
+
+  .menu-icon {
+    font-size: 2rem;
+  }
+
+  .menu-bar {
+    display: block;
+  }
+
+  .menu-close {
+    display: none;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    background-color: #444;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    font-size: 4rem;
+    transition: all 1s ease;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: hidden;
+  }
+
+  .menu-open .nav-list {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: visible;
+  }
+
+  .menu-open .menu-btns {
+    display: block;
+    z-index: 3;
+  }
+
+  .menu-open .menu-bar {
+    display: none;
+  }
+
+  .menu-open .menu-close {
+    display: block;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .logo {
+    height: 1.5rem;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-content-box {
+    grid-template-columns: 1fr;
+  }
+
+  .features-container {
+    grid-template-columns: 1fr;
+  }
+
+  .statics-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-left {
+    gap: 3rem;
+  }
+
+  .footer-link {
+    font-size: 1.2rem;
+  }
+
+  .questions-title {
+    font-size: 2.2rem;
+  }
+
+  .questions-text {
+    font-size: 1.4rem;
+  }
+
+  .card-heading {
+    font-size: 3.6rem;
+  }
+
+  .testimonials-mainheading {
+    font-size: 3.6rem;
+  }
+  .testimonials-subheading {
+    font-size: 2rem;
+  }
+
+  .match-title {
+    font-size: 2.2rem;
+  }
+
+  .match-text {
+    font-size: 1.2rem;
+  }
+
+  .btn-match {
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .pricing-container {
+    grid-template-columns: 1fr;
+    height: 170rem;
+    width: 80%;
+    padding-left: 5rem;
+  }
+
+  .section-pricing {
+    height: 190rem;
+  }
+
+  .pricing-list {
+    padding-left: 5rem;
+  }
+
+  .pricing-name {
+    margin-bottom: 3rem;
+  }
+
+  .pricing-list-item {
+    margin-bottom: 2rem;
+  }
+}
